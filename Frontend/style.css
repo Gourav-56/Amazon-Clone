@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(../Images/amazon_logo\ \(1\).png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: pink;
+}
+
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    display: flex;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-country{
+    display: flex;
+    align-items:flex-end;
+}
+
+.country-logo{
+    background-image: url(../Images/india-logo.png);
+    height: 12px;
+    width: 18px;
+    background-size: cover;
+}
+
+.country-select-outer{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    flex-grow: 1;
+}
+
+.country-select{
+    flex: 1;
+    align-items: flex-end;
+    border: none;
+    height: 40px;
+    background-color: #0f1111;
+    color: white;
+    appearance: none;
+    padding-right: 30px;
+    margin-left: 2px;
+    outline: none;
+    border: none;
+}
+
+.fa-arrow-down{
+    margin-left: -30px;
+    pointer-events: none;
+    font-size: 0.8rem;
+}
